@@ -3,13 +3,13 @@ package thermalproject;
 public class CPU {
 
 	double currentTemp;
-//probably best to work in Kelvin, but other teams might find it easier to work in Celsius.
-//current figures computed in Kelvin, but printed in Celsius
-//if unit time is 10 seconds, need to work with double, as very small increments in temperature in
-//this timeframe
+	//probably best to work in Kelvin, but other teams might find it easier to work in Celsius.
+	//current figures computed in Kelvin, but printed in Celsius
+	//if unit time is 10 seconds, need to work with double, as very small increments in temperature in
+	//this timeframe
 	int intensity;
 	//intensity should be between 5-100
-//may not be “intensity", but some input to determine activity, and therefore heat production
+	//may not be “intensity", but some input to determine activity, and therefore heat production
 	//may need to change to float if intensity very variable. PLACEHOLDER: data type
 	boolean isAlive;
 	//not yet used
