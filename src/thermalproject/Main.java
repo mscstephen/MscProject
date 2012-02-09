@@ -15,17 +15,14 @@ public class Main {
 		System.out.print("enter cooling plan for rack C(0-3): ");
 		int c=scan.nextInt();
 		System.out.print("enter cooling plan for rack D(0-3): ");
-		int d=scan.nextInt();
-		 *
-		 */
+		int d=scan.nextInt();*/
 		/*try{
 		ReadWithScanner scanned=new ReadWithScanner("test.txt");
 		data.coolingPlan=scanned.processLineByLine();
 		}
 		catch(Exception e)
 		{System.out.println(e);
-		System.out.println("a");}
-		 */
+		System.out.println("a");*/
 		String outputFilename = "thermalmap.txt";
 		String futureOutputname = "futurethermal.txt";
 		try {
